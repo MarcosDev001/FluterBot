@@ -149,6 +149,6 @@ function limparMensagens(message) {
 }
 
 
-const token = 'MTE4Mzg4ODMxODY5NDQyODcxMg.GheCR2.ic09Lq-WN5iOIVGskchyjjLCDjxWQCuveUD118';
+const token = 'SEU TOKEN VOCÊ COLOCA AQUI';
 
 client.login(token);
