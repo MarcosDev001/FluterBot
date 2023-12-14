@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const prefix = '!'; // Pode ser alterado para o prefixo desejado
+const prefix = '!'; // Aqui é para acionar o COMANDO , EXEMPLO: !LIMPAR
 
 client.on('message', (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
