@@ -1,0 +1,59 @@
+BOT CRIADO POR MARCOS BONI (FLUTTER BOT) V1
+MEU DISCORD: MARCOSDEV
+BOT DESENVOLVIDO A PEDIDO DE UM SERVIDOR DE GTA5 RP
+LINGUAGEM USADA: JAVA SCRIPT
+PARA ATIVAR O BOT BASTA IR NO TERMINAL E COLOCAR: node index.js
+
+vai aparecer a  mensagem: bot online
+
+
+Funcionalidades QUE EU COLOQUEI:
+
+SISTEMA DE Prova (QUIZZ OU NORMAIS)
+O bot oferece funcionalidades relacionadas à realização de uma prova em um canal específico. As ações disponíveis são:
+
+Para Iniciar Prova basta usando o seguinte comando:
+
+Comando: !iniciarprova
+Descrição: Inicia a prova, permitindo que os participantes respondam às perguntas.
+Responder Perguntas
+
+Descrição: Os participantes podem responder às perguntas utilizando as opções de escolha (a, b, c, d).
+
+Para Finalizar Prova basta usando os seguinte comando:
+
+Comando: !finalizado
+Descrição: Finaliza a prova e gera os resultados.
+
+Resultados
+Ao finalizar a prova, o bot gera uma mensagem com os resultados. As características incluem:
+
+Apresentação detalhada das respostas dos participantes em relação às respostas corretas.
+Limpar Mensagens
+O bot possui uma funcionalidade para limpar mensagens em um canal específico. A ação disponível é:
+
+Limpar Mensagens
+Comando: !limpar [quantidade]
+Descrição: Limpa a quantidade especificada de mensagens no canal (até 100 mensagens).
+Painel
+O bot apresenta a funcionalidade de exibir um painel em um canal específico. A ação disponível é:
+
+Exibir Painel
+Comando: !painel
+Descrição: Envia um painel para um canal específico.
+Dependências
+O bot utiliza a biblioteca discord.js para interagir com a API do Discord. Certifique-se de ter a dependência instalada usando o seguinte comando: npm install discord.js
+
+
+O PAINEL NAO ESTA TOTALMENTE FUNCIONAL , POIS ESTOU ALTERANDO, ELE SERA UM PAINEL PARA O  USUARIO ABRIR UM TICKET PARA SUPORTE DO SERVIDOR!
+
+
+Ativação
+Para ativar o bot, é necessário fornecer o token do bot desenvolvedor. Substitua a variável token com o token do seu bot. Utilize o seguinte código:  
+
+const token = 'Coloque seu token aqui';
+client.login(token);
+
+
+
+QUALQUER DUVIDA ESTOU A DISPOSIÇÃO: DISCORD: marcosdev
